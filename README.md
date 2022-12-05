@@ -23,7 +23,6 @@ It is a digit recognition task. As such, there are ten digits (0 to 9) or ten cl
 Excellent results achieve a prediction error of less than 1%. A state-of-the-art prediction error of approximately 0.2% can be achieved with large convolutional neural networks. There is a listing of the state-of-the-art results and links to the relevant papers on the MNIST and other datasets on Rodrigo Benenson’s webpage.
 ## Program:
 ```
-~~~
 # Plot ad hoc mnist instances
 from tensorflow.keras.datasets import mnist
 import matplotlib.pyplot as plt
@@ -41,7 +40,6 @@ plt.imshow(X_train[3], cmap=plt.get_cmap('gray'))
 # show the plot
 plt.show()
 ```
-~~~
 
 ## Output:<img width="553" alt="image" src="https://user-images.githubusercontent.com/93427183/205689941-e18f6737-8113-4848-93aa-8ed7f2f1d2e1.png">
 
